@@ -1,0 +1,129 @@
+html,body {
+
+    background-color: #FFEDCE;
+}
+
+header{
+    position: fixed;
+    height: 9vh;
+    width: 100%;
+    background-color: #850000;
+}
+
+.menu{
+     display: flex;
+     align-items: center;
+   
+}
+
+.name{
+    display: flex;
+    text-align: center;
+    color: #ffff;
+}
+
+.logo{
+    padding-left: 10vh;
+    padding-right: 70vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.container{
+    margin-top: 30vh;
+    color: #850000;
+}
+
+.img-camera{
+    display: flex;
+    padding-top: 3vh;
+    padding-left: 30vh;
+    align-items: center;
+    height: 20vh;
+    
+}
+
+.fake-input{
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro{
+    text-align: center;
+}
+
+.enviar{
+    margin-top: 3vh;
+    z-index: 1;
+    font-size: 1.5rem;
+    background-color: #850000;
+    color: #ffff;
+    border-color: #850000;
+    font-size: 2.5rem;
+    border-radius: 10vh;
+    
+}
+
+.container-op{
+   margin-top: 5vh;
+   display: flex;
+   justify-content: space-around;
+}
+
+.input{
+    margin-top: 2vh;
+    border-color: #850000;
+    height: 5vh;
+    width: 40vh;
+}
+
+.input-name{
+  
+    border-color: #850000;
+    height: 5vh;
+    width: 40vh;
+}
+
+.input-ingredientes{
+
+    border-color: #850000;
+    height: 5vh;
+    width: 40vh;
+}
+
+.input-photo{
+
+    border-color: #850000;
+    height: 2vh;
+    width: 10vh;
+}
+
+.input-promo{
+    margin-top: 3vh;
+    border-color: #850000;
+    height: 5vh;
+    width: 40vh;
+}
+
+
+.label-pizza{
+
+    border-color: #850000;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
